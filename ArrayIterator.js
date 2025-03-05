@@ -62,13 +62,13 @@ let favoriteFood = [
 ];
 console.log(favoriteFood);
 
-let first_fruit = favoriteFood.find(food=>food.length>4);
+let first_food = favoriteFood.find(food=>food.length>4);
 
-console.log(`First fruit with more than 4 letters is ${first_fruit}`);
+console.log(`First food with more than 4 letters is ${first_food}`);
 
-let first_fruit_index = favoriteFood.findIndex(food => food == first_fruit);
+let first_food_index = favoriteFood.findIndex(food => food == first_food);
 
-console.log(`The index of first fruit with more than 4 letters is ${first_fruit_index}`);
+console.log(`The index of first food with more than 4 letters is ${first_food_index}`);
 
 /* OUTPUT
 LOS ANGELES
@@ -79,6 +79,6 @@ GLENDORA
 [ 1, 4, 9, 16, 25 ]
 [ 85, 90, 100 ]
 [ 'Cake', 'Pad Thai', 'Pizza', 'Biryani', 'Shawarma', 'Chow mein' ]
-First fruit with more than 4 letters is Pad Thai
-The index of first fruit with more than 4 letters is 1
+First food with more than 4 letters is Pad Thai
+The index of first food with more than 4 letters is 1
 */
